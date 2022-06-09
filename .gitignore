@@ -44,9 +44,7 @@ mtoa.aovs.AOVInterface().addAOV('Z' )
 mtoa.aovs.AOVInterface().addAOV('P' )
 mtoa.aovs.AOVInterface().addAOV('coat' ) 
 mtoa.aovs.AOVInterface().addAOV('transmission' ) 
-mtoa.aovs.AOVInterface().addAOV('AO', aovShader='aiAmbientOcclusion' )      
-                
-        
-
-        
-      
+mtoa.aovs.AOVInterface().addAOV('AO', aovShader='aiAmbientOcclusion' ) 
+mtoa.aovs.AOVInterface().addAOV('emission' ) 
+mtoa.aovs.AOVInterface().addAOV('sss' )  
+mtoa.aovs.AOVInterface().addAOV('albedo' )   
